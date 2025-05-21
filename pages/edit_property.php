@@ -89,8 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="mb-3">
                 <label for="type" class="form-label">Tipo</label>
                 <select id="type" name="type" class="form-select" required>
-                    <option value="house" <?= $property['type'] === 'house' ? 'selected' : '' ?>>Casa</option>
-                    <option value="land" <?= $property['type'] === 'land' ? 'selected' : '' ?>>Terreno</option>
+                    <option value="Casa" <?= $property['type'] === 'Casa' ? 'selected' : '' ?>>Casa</option>
+                    <option value="Terreno" <?= $property['type'] === 'Terreno' ? 'selected' : '' ?>>Terreno</option>
                 </select>
             </div>
             <div class="mb-3">

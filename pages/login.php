@@ -51,6 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="password" class="form-control" id="password" name="password" required>
             </div>
             <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            <a href="../index.php" class="btn btn-secondary">Volver a la Página Principal</a>
         </form>
     </div>
 </body>

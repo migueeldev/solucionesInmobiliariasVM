@@ -63,8 +63,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="mb-3">
                 <label for="type" class="form-label">Tipo de Propiedad</label>
                 <select id="type" name="type" class="form-select" required>
-                    <option value="house">Casa</option>
-                    <option value="land">Terreno</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Terreno">Terreno</option>
                 </select>
             </div>
             <div class="mb-3">

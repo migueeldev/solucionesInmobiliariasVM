@@ -70,12 +70,18 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
     <!-- Header -->
-    <header class="bg-primary text-white p-3 mb-4">
-        <div class="container d-flex justify-content-between align-items-center">
-            <img src="img/image.png" alt="Logo de la empresa" style="height: 50px;">
-            <h1 class="h4 m-0">Am Riom México</h1>
+    <header class="bg-white shadow-sm py-3 mb-5">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+            <img src="img/victores-logo.png" alt="Logo de la empresa" style="height: 70px; margin-right: 30px;">
+            <h1 class="h5 text-primary m-0">VM Soluciones Inmobiliarias</h1>
         </div>
-    </header>
+        <div>
+            <a href="pages/login.php" class="btn btn-outline-primary me-2">Iniciar Sesión</a>
+            <a href="pages/register.php" class="btn btn-primary">Registro</a>
+        </div>
+    </div>
+</header>
 
 
     <div class="container mt-5">
@@ -128,12 +134,14 @@ $properties = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 
-     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3 mt-4">
-        <p class="mb-0">&copy; <?= date('Y') ?> Am Riom México. Todos los derechos reservados.</p>
-        <div class="social-icons mt-3">
-        <a href="https://github.com/migueeldev" target="_blank" class="text-white"><i class="fab fa-github fa-2x"></i></a>
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-2">&copy; <?= date('Y') ?> VM Soluciones Inmobiliarias. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://github.com/migueeldev" target="_blank" class="text-white me-3"><i class="fab fa-github fa-2x"></i></a>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
