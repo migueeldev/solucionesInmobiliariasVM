@@ -47,7 +47,6 @@ temp/
 
 # Ignore log files and databases
 *.log
-*.sql
 *.sqlite
 
 # Ignore build artifacts and scripts
